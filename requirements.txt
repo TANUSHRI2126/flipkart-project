@@ -1,7 +1,8 @@
 streamlit
-plotly
-numpy
+scikit-learn
 pandas
 matplotlib
 joblib
-scikit-learn
+numpy
+nltk
+textblob
