@@ -16,8 +16,8 @@ with open("alert_mapping.pkl", "rb") as f:
 print("✅ Model and mapping loaded successfully")
 
 
-with open("svm_sentiment_model.pkl", "rb") as f:
-    pipeline = cloudpickle.load(f)
+with open("model.pkl", "rb") as f:
+    model = cloudpickle.load(f)
 
 
 # --- Page Config ---
