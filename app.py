@@ -183,5 +183,3 @@ if st.button("Predict Sentiment"):
 st.markdown("<div class='footer'>Made with ❤️ by Tanushri | Powered by Linear SVM</div>", unsafe_allow_html=True)
 import cloudpickle
 
-with open("svm_sentiment_model.pkl", "rb") as f:
-    pipeline = cloudpickle.load(f)
